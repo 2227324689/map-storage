@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T07:57:21.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1p3VnNSyqLeu6UQiEzyD" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T07:58:32.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Nh2tQIwRI0SBW_jWQDFe" version="14.8.1" type="github">
   <diagram id="qKX1--xFgHHBexEKRUjf" name="Page-1">
     <mxGraphModel dx="1822" dy="1239" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1495,7 +1495,7 @@
           <mxGeometry x="1383" y="1503" width="95" height="38" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-172" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;shadow=0;glass=1;labelBackgroundColor=none;sketch=1;fontSize=18;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1153" y="1832.5" width="889" height="459" as="geometry" />
+          <mxGeometry x="1153" y="1832.5" width="889" height="454.25" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-173" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
           <mxGeometry width="889" height="40" as="geometry" />
@@ -1542,7 +1542,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-219" value="删除Hash表Key中一个或者多个field，如果不存在，则直接忽略" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-217">
           <mxGeometry x="136" width="457" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-220" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-217">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-220" value="HDEL key field [field ...]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-217">
           <mxGeometry x="593" width="296" height="47" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-213" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
@@ -1554,7 +1554,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-215" value="查看Hash表key中，指定field是否存在，存在返回1，否则返回0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-213">
           <mxGeometry x="136" width="457" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-216" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-213">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-216" value="HEXISTS key field" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-213">
           <mxGeometry x="593" width="296" height="31" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-209" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
@@ -1566,7 +1566,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-211" value="返回Hash表key中所有的field和value" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-209">
           <mxGeometry x="136" width="457" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-212" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-209">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-212" value="HGETALL key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-209">
           <mxGeometry x="593" width="296" height="37" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-205" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
@@ -1578,7 +1578,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-207" value="返回Hash表key中所有的field" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-205">
           <mxGeometry x="136" width="457" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-208" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-205">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-208" value="HKEYS key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-205">
           <mxGeometry x="593" width="296" height="41" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-201" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
@@ -1590,7 +1590,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-203" value="返回Hash表key中field的数量" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-201">
           <mxGeometry x="136" width="457" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-204" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-201">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-204" value="HLEN key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-201">
           <mxGeometry x="593" width="296" height="32" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-197" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
@@ -1602,23 +1602,23 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-199" value="返回Hash表key中所有的field的value" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-197">
           <mxGeometry x="136" width="457" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-200" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-197">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-200" value="HVALS key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-197">
           <mxGeometry x="593" width="296" height="45" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-221" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
-          <mxGeometry y="369" width="889" height="45" as="geometry" />
+          <mxGeometry y="369" width="889" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-222" value="HMGET" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontSize=15;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-221">
-          <mxGeometry width="136" height="45" as="geometry" />
+          <mxGeometry width="136" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-223" value="返回Hash表Key中，一个或多个指定field的值" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-221">
-          <mxGeometry x="136" width="457" height="45" as="geometry" />
+          <mxGeometry x="136" width="457" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-224" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-221">
-          <mxGeometry x="593" width="296" height="45" as="geometry" />
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-224" value="HMGET key field [field ...]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-221">
+          <mxGeometry x="593" width="296" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-225" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-172">
-          <mxGeometry y="414" width="889" height="45" as="geometry" />
+          <mxGeometry y="409" width="889" height="45" as="geometry" />
         </mxCell>
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-226" value="HMSET" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;overflow=hidden;fontStyle=1;fontSize=15;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-225">
           <mxGeometry width="136" height="45" as="geometry" />
@@ -1626,7 +1626,7 @@
         <mxCell id="s6qHRcp_9V7ku-NvBZSe-227" value="同时将多个field-value设置到Hash表指定的key中，如果存在field，则覆盖。如果key不存在，则创建一个新的Hash表" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;spacingLeft=6;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-225">
           <mxGeometry x="136" width="457" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="s6qHRcp_9V7ku-NvBZSe-228" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-225">
+        <mxCell id="s6qHRcp_9V7ku-NvBZSe-228" value="HMSET key field value [field value ...]" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="s6qHRcp_9V7ku-NvBZSe-225">
           <mxGeometry x="593" width="296" height="45" as="geometry" />
         </mxCell>
       </root>
