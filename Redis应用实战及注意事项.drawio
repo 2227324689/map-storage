@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T14:16:43.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="7EJQOAsyj6XfdKErr5S0" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T14:18:57.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="8xfrAMmGDqbI9qrtfGK4" version="14.8.3" type="github">
   <diagram id="0-Q3YI7YI1UpwhPuWM9i" name="Page-1">
     <mxGraphModel dx="2222" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-36" value="lottery抽奖活动表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;sketch=1;fontSize=15;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-493" y="599" width="223" height="234" as="geometry" />
+          <mxGeometry x="-489" y="518" width="223" height="234" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-37" value="int: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MVN1G9INrQesgO_Ylw7L-36" vertex="1">
           <mxGeometry y="26" width="223" height="26" as="geometry" />
@@ -167,7 +167,7 @@
           <mxGeometry y="208" width="223" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-46" value="prize 奖品表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;sketch=1;fontSize=15;strokeColor=#d6b656;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="-162" y="892" width="212" height="208" as="geometry" />
+          <mxGeometry x="-160.94" y="809" width="212" height="208" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-47" value="int: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MVN1G9INrQesgO_Ylw7L-46" vertex="1">
           <mxGeometry y="26" width="212" height="26" as="geometry" />
@@ -191,7 +191,7 @@
           <mxGeometry y="182" width="212" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-54" value="lottery_record （中奖纪录）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;sketch=1;fontSize=15;shadow=0;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="175" y="892" width="240" height="156" as="geometry" />
+          <mxGeometry x="171" y="789" width="240" height="156" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-55" value="int: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MVN1G9INrQesgO_Ylw7L-54" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -209,7 +209,7 @@
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-59" value="lottery_item 奖项表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;sketch=1;fontSize=15;strokeColor=#d6b656;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="-162" y="599" width="236" height="208" as="geometry" />
+          <mxGeometry x="-158" y="518" width="236" height="208" as="geometry" />
         </mxCell>
         <mxCell id="MVN1G9INrQesgO_Ylw7L-60" value="int: id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MVN1G9INrQesgO_Ylw7L-59" vertex="1">
           <mxGeometry y="26" width="236" height="26" as="geometry" />
@@ -749,6 +749,15 @@
             <mxPoint x="315" y="1603" as="sourcePoint" />
             <mxPoint x="71" y="1496" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_zbqjhAPaSOjnQN9zl-1-171" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#EA6B66;strokeColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="_zbqjhAPaSOjnQN9zl-1-167" target="_zbqjhAPaSOjnQN9zl-1-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1589" as="sourcePoint" />
+            <mxPoint x="325" y="1509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zbqjhAPaSOjnQN9zl-1-172" value="timestamp" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fontSize=16;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="338" y="1502.25" width="116" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
