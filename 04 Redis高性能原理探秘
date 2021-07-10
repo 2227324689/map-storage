@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T13:57:46.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="_Gty2288b0KmznScDW1U" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-10T08:04:16.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ImEzjYctyw2ST1GLEK7g" version="14.8.3" type="github">
   <diagram id="EOK7kC3kVf5M2Q0OW9vK" name="Page-1">
     <mxGraphModel dx="2431" dy="1199" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ICJ2gs407vgD3th1w9ly-305" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="2915" y="1144.13" width="279" height="172.87" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-304" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;strokeColor=#82b366;dashed=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1145" width="551" height="167" as="geometry" />
+        </mxCell>
         <mxCell id="ICJ2gs407vgD3th1w9ly-282" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Main%20Reactor%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3Bglass%3D1%3Bsketch%3D1%3BfontSize%3D21%3BfontColor%3D%23EA6B66%3BfontStyle%3D1%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221176%22%20y%3D%221887.5%22%20width%3D%22182%22%20height%3D%2234%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="1378" y="1902" width="223" height="72" as="geometry" />
         </mxCell>
@@ -1019,6 +1025,88 @@
               <mxPoint x="1296" y="1967" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-285" value="读取Socket" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1536" y="733.5" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-286" value="解析请求" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="733.5" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-287" value="执行操作" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="737.5" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-288" value="写入Socket" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="741.13" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-289" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" source="ICJ2gs407vgD3th1w9ly-285" target="ICJ2gs407vgD3th1w9ly-286">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1764" y="894.75" as="sourcePoint" />
+            <mxPoint x="1814" y="844.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-290" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" target="ICJ2gs407vgD3th1w9ly-287">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2033" y="773.75" as="sourcePoint" />
+            <mxPoint x="2134" y="827.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-291" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" source="ICJ2gs407vgD3th1w9ly-287">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2381" y="880.75" as="sourcePoint" />
+            <mxPoint x="2439" y="773.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-294" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="2058.75" y="357" width="45.5" height="957" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-296" value="整个过程由一个主线程完成，这个过程的IO操作比较耗时" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;glass=1;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="885.75" width="669" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-297" value="读取Socket" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1187" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-298" value="解析请求" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2354" y="1187" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-299" value="执行操作" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="2654" y="1191" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-300" value="写入Socket" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2954" y="1194.63" width="193" height="73.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-301" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" source="ICJ2gs407vgD3th1w9ly-297" target="ICJ2gs407vgD3th1w9ly-298">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2278" y="1348.25" as="sourcePoint" />
+            <mxPoint x="2328" y="1298.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-302" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" target="ICJ2gs407vgD3th1w9ly-299">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2547" y="1227.25" as="sourcePoint" />
+            <mxPoint x="2648" y="1281.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-303" value="" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;strokeColor=#EA6B66;" edge="1" parent="1" source="ICJ2gs407vgD3th1w9ly-299">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2895" y="1334.25" as="sourcePoint" />
+            <mxPoint x="2953" y="1227.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-306" value="多个IO线程" style="endArrow=classic;html=1;fontSize=22;fontColor=#EA6B66;strokeColor=#EA6B66;entryX=0.497;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;sketch=1;shadow=1;" edge="1" parent="1" source="ICJ2gs407vgD3th1w9ly-305" target="ICJ2gs407vgD3th1w9ly-304">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2426" y="1470" as="sourcePoint" />
+            <mxPoint x="2476" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3055" y="1405" />
+              <mxPoint x="2294" y="1405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-307" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;glass=1;dashed=1;sketch=1;fontSize=22;strokeColor=#d79b00;arrowWidth=0.4144620811287462;arrowSize=0.3871428571428578;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="2718" y="1087" width="65" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ICJ2gs407vgD3th1w9ly-308" value="主线程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;glass=1;dashed=1;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="2700.5" y="1044" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
