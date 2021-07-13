@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T13:51:58.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="-u6c0YmVg0-NOPS1jJ2j" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T14:25:37.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="BVSdrhGgfKQH6QdzRH8g" version="14.8.3" type="github">
   <diagram id="iKaELfql1zH2-0_rrsrr" name="Page-1">
-    <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1585" dy="699" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PM3EjwTlwWu3m0idT5py-118" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=1;sketch=1;fontSize=17;fontColor=#000000;align=center;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1673" y="553" width="410" height="305" as="geometry" />
+        </mxCell>
         <mxCell id="PM3EjwTlwWu3m0idT5py-1" value="master" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-33" y="136" width="120" height="60" as="geometry" />
         </mxCell>
@@ -486,6 +489,44 @@
         </mxCell>
         <mxCell id="PM3EjwTlwWu3m0idT5py-114" value="对外提供服务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;dashed=1;sketch=1;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1585" y="364" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-115" value="node1&lt;br&gt;0~5000" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;glass=1;sketch=1;fontSize=17;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1729" y="610" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-116" value="node2&lt;br&gt;5001~10000" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;glass=1;sketch=1;fontSize=17;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1954" y="610" width="108" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-117" value="node3&lt;br&gt;10001~16383" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;glass=1;sketch=1;fontSize=17;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1836" y="740" width="111" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-119" value="3个节点组成的集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;dashed=1;sketch=1;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1673" y="558" width="154" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-120" value="集群搭建前，给每个节点分配好slot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;dashed=1;sketch=1;fontSize=12;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1693" y="578" width="218" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-121" value="client" style="rounded=0;whiteSpace=wrap;html=1;glass=1;dashed=1;sketch=1;fontSize=18;strokeWidth=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1243" y="671" width="81" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-122" value="set k v" style="endArrow=classic;html=1;shadow=1;fontSize=16;fontColor=#EA6B66;strokeColor=#FF8000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PM3EjwTlwWu3m0idT5py-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1399" y="732" as="sourcePoint" />
+            <mxPoint x="1447" y="703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-123" value="1. crc16(k)=61249&lt;br&gt;2. 61249%16384=12097" style="rounded=0;whiteSpace=wrap;html=1;glass=1;dashed=1;sketch=1;fontSize=14;fontColor=#EA6B66;strokeWidth=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1448" y="675" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-124" value="" style="endArrow=classic;html=1;shadow=1;fontSize=16;fontColor=#EA6B66;strokeColor=#FF8000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="PM3EjwTlwWu3m0idT5py-123" target="PM3EjwTlwWu3m0idT5py-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1632" y="825" as="sourcePoint" />
+            <mxPoint x="1682" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PM3EjwTlwWu3m0idT5py-125" value="&lt;font style=&quot;font-size: 11px&quot;&gt;在node3执行 set k v命令&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#EA6B66;" vertex="1" connectable="0" parent="PM3EjwTlwWu3m0idT5py-124">
+          <mxGeometry x="0.1048" y="-1" relative="1" as="geometry">
+            <mxPoint x="28" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
