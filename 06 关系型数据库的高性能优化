@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T09:24:20.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="CaZ4haz2spiYLfDXSMbd" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T14:20:44.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="Xqq_nMGLAtXO856Cpo1A" version="14.8.6" type="github">
   <diagram id="vZCeeKM1eDY9f2tNDqIX" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-1" value="订单表" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="317" y="161" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-2" value="订单主表" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="317" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-3" value="订单明细表" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="411" y="290" width="93" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-4" value="" style="endArrow=classic;html=1;fontSize=15;exitX=0.465;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;" edge="1" parent="1" source="tuVt5lVA0i3EmD5QPBMp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="492" as="sourcePoint" />
+            <mxPoint x="404" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-5" value="垂直拆分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;sketch=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="414" y="238" width="77" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-6" value="" style="endArrow=none;html=1;fontSize=15;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="271" as="sourcePoint" />
+            <mxPoint x="472" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-7" value="" style="endArrow=none;html=1;fontSize=15;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342" y="290" as="sourcePoint" />
+            <mxPoint x="342" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuVt5lVA0i3EmD5QPBMp-8" value="" style="endArrow=none;html=1;fontSize=15;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="289" as="sourcePoint" />
+            <mxPoint x="473" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
