@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T08:04:13.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ko2HZHCyH8W_7Rph_il3" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T10:15:21.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="xGQ4KC7NSodbOK23VtKX" version="14.8.6" type="github">
   <diagram id="9ylr1pZfH_oXAa6XBC0j" name="Page-1">
-    <mxGraphModel dx="1422" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0paVIYKQM2oTQebj5qAM-2" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=1;fontSize=14;fontColor=#EA6B66;strokeWidth=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="220" width="363" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="0paVIYKQM2oTQebj5qAM-3" value="Sharding-JDBC" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-48" y="307" width="111" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0paVIYKQM2oTQebj5qAM-4" value="Sharding-Proxy" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="148" y="307" width="111" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0paVIYKQM2oTQebj5qAM-5" value="Sharding-Sidecar(未发布)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="179" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0paVIYKQM2oTQebj5qAM-6" value="ShardingSphere" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;shadow=0;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="16" y="243" width="207" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
