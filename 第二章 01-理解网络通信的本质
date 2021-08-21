@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-21T08:11:28.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="agLetGkuthfQeVAOHwJx" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-21T09:00:09.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="BA10pvQ09akkZE7yHG7d" version="14.9.8" type="github">
   <diagram id="8s_QCWZxLH3SNb960eSO" name="Page-1">
     <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,108 @@
             <mxPoint x="307" y="402" as="sourcePoint" />
             <mxPoint x="357" y="352" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-16" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="76" y="558" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-17" value="表示层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="76" y="615" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-18" value="会话层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="76" y="672" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-19" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="76" y="729" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-20" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="76" y="786" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-21" value="数据链路层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="76" y="843" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-22" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="76" y="900" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1" source="JSJxpCDdgjIphOA7v5WQ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="619" as="sourcePoint" />
+            <mxPoint x="342" y="577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-24" value="为应用程序提供服务" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="343" y="561.5" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="637" as="sourcePoint" />
+            <mxPoint x="342" y="637.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-26" value="数据格式化、数据加密" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="343" y="622" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="690.5" as="sourcePoint" />
+            <mxPoint x="342" y="691" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-28" value="建立、管理和维护会话" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="343" y="675.5" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="747.5" as="sourcePoint" />
+            <mxPoint x="342" y="748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-30" value="建立、管理和维护端到端的链接" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="343" y="732.5" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="808" as="sourcePoint" />
+            <mxPoint x="342" y="808.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-32" value="IP选址和路由" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="343" y="793" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-33" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="861.5" as="sourcePoint" />
+            <mxPoint x="342" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-34" value="提供介质访问和链路管理" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="343" y="846.5" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194" y="922" as="sourcePoint" />
+            <mxPoint x="342" y="922.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-36" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;glass=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="343" y="907" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-37" value="OSI七层网络模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="70.5" y="530" width="129" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-39" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="558" width="120" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-40" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="729" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-41" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="786" width="118" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-42" value="网络接口层" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;glass=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-111" y="843" width="118" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-43" value="TCP/IP四层概念模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="-121" y="530" width="129" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
