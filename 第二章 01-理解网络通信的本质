@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-21T09:13:02.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="IVYfZNam67AELSB_AIvR" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-21T10:03:57.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mNh1682mewifCRBxYulJ" version="14.9.8" type="github">
   <diagram id="8s_QCWZxLH3SNb960eSO" name="Page-1">
     <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,6 +153,193 @@
         </mxCell>
         <mxCell id="JSJxpCDdgjIphOA7v5WQ-43" value="TCP/IP四层概念模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=1;sketch=1;fontColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="-121" y="530" width="129" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-44" value="Client" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="942" y="385" width="197" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-45" value="Server" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1589.5" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-46" value="" style="endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSJxpCDdgjIphOA7v5WQ-44" target="JSJxpCDdgjIphOA7v5WQ-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1117" y="436" as="sourcePoint" />
+            <mxPoint x="1167" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-47" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fontColor=#333333;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="942" y="479" width="193" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-48" value="POST" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="951" y="500" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-49" value="URI" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="500" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-50" value="HTTP/1.1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="500" width="65" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-51" value="Connection: keep-alive&lt;br&gt;Content-Type: application/json" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;align=left;spacingTop=0;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="951" y="528" width="175" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-52" value="username&amp;amp;password" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;align=left;spacingTop=0;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="951" y="576" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-53" value="Http协议头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="824" y="525" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-54" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fontColor=#333333;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="478.5" width="193" height="193.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-55" value="POST" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="558.5" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-56" value="URI" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="558.5" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-57" value="HTTP/1.1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="558.5" width="65" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-58" value="Connection: keep-alive&lt;br&gt;Content-Type: application/json" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="586.5" width="175" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-59" value="username&amp;amp;password" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="634.5" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-60" value="客户端端口： 12321&lt;br&gt;服务端端口：&amp;nbsp; 443" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1294" y="495" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-61" value="Http头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1167" y="605" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-62" value="TCP头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="506" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fontColor=#333333;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1282" y="742" width="193" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-64" value="POST" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="885" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-65" value="URI" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1347" y="885" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-66" value="HTTP/1.1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1402" y="885" width="65" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-67" value="Connection: keep-alive&lt;br&gt;Content-Type: application/json" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="913" width="175" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-68" value="username&amp;amp;password" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="961" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-69" value="客户端IP： 192.168.1.102&lt;br&gt;服务端IP：&amp;nbsp; 101.128.33.24" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="755.5" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-70" value="Http头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1176" y="934.5" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-71" value="TCP头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1174" y="835.5" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-72" value="客户端端口： 12321&lt;br&gt;服务端端口：&amp;nbsp; 443" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="821.5" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-73" value="IP头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="760" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-74" value="" style="shape=flexArrow;endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;endWidth=9;endSize=9.33;width=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1141" y="542" as="sourcePoint" />
+            <mxPoint x="1277" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-75" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=1;sketch=1;fontColor=#333333;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="939" y="683" width="193" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-76" value="POST" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="949" y="885" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-77" value="URI" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1004" y="885" width="46" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-78" value="HTTP/1.1" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="885" width="65" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-79" value="Connection: keep-alive&lt;br&gt;Content-Type: application/json" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="949" y="913" width="175" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-80" value="username&amp;amp;password" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingTop=0;spacingLeft=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="949" y="961" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-81" value="客户端IP： 192.168.1.102&lt;br&gt;服务端IP：&amp;nbsp; 101.128.33.24" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="949" y="755.5" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-82" value="Http头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="805" y="934" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-83" value="TCP头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="803" y="835" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-84" value="客户端端口： 12321&lt;br&gt;服务端端口：&amp;nbsp; 443" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="949" y="821.5" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-85" value="IP头信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="800" y="759.5" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-87" value="" style="shape=flexArrow;endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;width=12;endSize=11.97;endWidth=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="JSJxpCDdgjIphOA7v5WQ-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1378" y="677" as="sourcePoint" />
+            <mxPoint x="1502" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-88" value="客户端电脑MAC：&lt;br&gt;网关的MAC：" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=left;spacingLeft=4;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="949" y="694" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-89" value="MAC头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="796" y="708" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-90" value="" style="shape=flexArrow;endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;entryX=1.016;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;width=8;endSize=12.97;endWidth=12;" edge="1" parent="1" target="JSJxpCDdgjIphOA7v5WQ-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1278" y="862" as="sourcePoint" />
+            <mxPoint x="1235" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-91" value="" style="endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JSJxpCDdgjIphOA7v5WQ-97" target="JSJxpCDdgjIphOA7v5WQ-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1135" y="1144" as="sourcePoint" />
+            <mxPoint x="1161" y="1039" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1209" y="1143" />
+              <mxPoint x="1650" y="1143" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-92" value="" style="endArrow=classic;html=1;shadow=0;fontColor=#EA6B66;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="JSJxpCDdgjIphOA7v5WQ-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1132" y="476" as="sourcePoint" />
+            <mxPoint x="1041" y="474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-93" value="传输层" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1514.5" y="554" width="85.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-94" value="网络层" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1512" y="835.5" width="89" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-95" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="830" y="567" width="83" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-97" value="0101010101010101" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="939" y="1043" width="539" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-98" value="" style="shape=flexArrow;endArrow=classic;html=1;shadow=0;fontSize=15;fontColor=#EA6B66;strokeWidth=1;endWidth=12;endSize=5.33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1038" y="1005" as="sourcePoint" />
+            <mxPoint x="1038" y="1041" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSJxpCDdgjIphOA7v5WQ-99" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;网络接口层&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="1044.5" width="91" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
