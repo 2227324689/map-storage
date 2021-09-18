@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T08:48:53.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="SpnB55_LOXJiB8xvmK5Q" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T09:26:58.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yTtDJexodIr0yLIoFW-6" version="15.2.7" type="github">
   <diagram id="bO4Rhh-NMk-hz9pbvOZa" name="Page-1">
     <mxGraphModel dx="2222" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -355,6 +355,108 @@
               <mxPoint x="-277" y="1749" />
               <mxPoint x="398" y="1749" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-112" value="进入公众号" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1891" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-113" value="点击月卡充值" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-438" y="1891" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-114" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-112" target="jU5DQRFfPT6QZPfezI1a-113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="1940" as="sourcePoint" />
+            <mxPoint x="-440" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-115" value="进入到我的月租车页面" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="1891" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-116" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-113" target="jU5DQRFfPT6QZPfezI1a-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-321" y="1987" as="sourcePoint" />
+            <mxPoint x="-271" y="1937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-117" value="点击新增月租车" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1891" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-118" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-115" target="jU5DQRFfPT6QZPfezI1a-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-125" y="2019" as="sourcePoint" />
+            <mxPoint x="-75" y="1969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-119" value="选择省份、城市&lt;br&gt;停车场、车牌号" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1891" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-120" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-117" target="jU5DQRFfPT6QZPfezI1a-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="66" y="1989" as="sourcePoint" />
+            <mxPoint x="116" y="1939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-121" value="获取该车场月卡金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1991" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-122" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-119" target="jU5DQRFfPT6QZPfezI1a-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="193" y="2005" as="sourcePoint" />
+            <mxPoint x="243" y="1955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-123" value="获取该车场月卡金额" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="1991" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-124" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-121" target="jU5DQRFfPT6QZPfezI1a-123">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="45" y="2069" as="sourcePoint" />
+            <mxPoint x="68" y="2047" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-125" value="创建订单" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="1991" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-126" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-123" target="jU5DQRFfPT6QZPfezI1a-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-132" y="2103" as="sourcePoint" />
+            <mxPoint x="-82" y="2053" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-127" value="支付" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-438" y="1991" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-128" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-125" target="jU5DQRFfPT6QZPfezI1a-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-322" y="2113" as="sourcePoint" />
+            <mxPoint x="-272" y="2063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-129" value="支付状态" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-419" y="2075" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-130" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-127" target="jU5DQRFfPT6QZPfezI1a-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-241" y="2124" as="sourcePoint" />
+            <mxPoint x="-191" y="2074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-131" value="成功" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="2150" as="sourcePoint" />
+            <mxPoint x="-263" y="2115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-132" value="绑定车场和月租卡" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-261" y="2092.5" width="118" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-133" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="2100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU5DQRFfPT6QZPfezI1a-134" value="" style="endArrow=classic;html=1;fontColor=#EA6B66;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jU5DQRFfPT6QZPfezI1a-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-109" y="2194" as="sourcePoint" />
+            <mxPoint x="-64" y="2115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
