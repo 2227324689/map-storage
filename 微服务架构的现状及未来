@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T12:14:25.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="yquLu74p_RHyiRnP9nbl" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-05T13:18:46.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="9nxvAKZMIblELr6lF5KL" version="15.6.6" type="github">
   <diagram id="8aOYb3exP0UDfPqhCeJy" name="Page-1">
     <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,66 @@
             <mxPoint x="851.75" y="241" as="sourcePoint" />
             <mxPoint x="1028" y="208" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-34" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="692" y="476" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-35" value="用户系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="375" y="654" width="150" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-36" value="订单系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="565" y="656" width="150" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-37" value="库存系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="753" y="654" width="150" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-38" value="商品系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="937" y="654" width="150" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-39" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=18;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ArHgpyo0WWo6SZ6FnaOq-34" target="ArHgpyo0WWo6SZ6FnaOq-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="791" y="583" as="sourcePoint" />
+            <mxPoint x="716" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-40" value="单点登录机制" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="664.75" y="579" width="102" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-42" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=18;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ArHgpyo0WWo6SZ6FnaOq-40" target="ArHgpyo0WWo6SZ6FnaOq-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="819" y="630" as="sourcePoint" />
+            <mxPoint x="869" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-43" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=18;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ArHgpyo0WWo6SZ6FnaOq-40" target="ArHgpyo0WWo6SZ6FnaOq-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="802" y="643" as="sourcePoint" />
+            <mxPoint x="852" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-44" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=18;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ArHgpyo0WWo6SZ6FnaOq-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="715" y="608" as="sourcePoint" />
+            <mxPoint x="774" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-46" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontSize=18;fontColor=default;strokeColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ArHgpyo0WWo6SZ6FnaOq-40" target="ArHgpyo0WWo6SZ6FnaOq-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719" y="748" as="sourcePoint" />
+            <mxPoint x="769" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-47" value="i.gupaoedu.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="373" y="597" width="117" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-48" value="order.gupaoedu.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="551" y="597" width="117" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-49" value="repo.gupaoedu.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="791" y="597" width="117" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-50" value="s.gupaoedu.cn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="943" y="599" width="117" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
