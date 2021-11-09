@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T14:17:46.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="blQ-g3GI8RSPQobjc9w7" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T09:26:47.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="PTkmjzANs3kbv0RmoAqB" version="15.6.6" type="github">
   <diagram id="8aOYb3exP0UDfPqhCeJy" name="Page-1">
     <mxGraphModel dx="1822" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -714,6 +714,75 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="2108" as="sourcePoint" />
             <mxPoint x="630" y="2058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-182" value="微服务规划" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-183" value="微服务构建" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-184" value="微服务协同" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="694.5" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-185" value="微服务部署" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="856.5" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-186" value="微服务发布" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1018.5" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-187" value="微服务运维" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=13;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="2458" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-188" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontSize=13;fontColor=default;strokeColor=#82b366;fillColor=#d5e8d4;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="2578" as="sourcePoint" />
+            <mxPoint x="1290" y="2578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-189" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontSize=13;fontColor=default;strokeColor=#82b366;fillColor=#d5e8d4;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355.5" y="2578" as="sourcePoint" />
+            <mxPoint x="355.5" y="2534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-190" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontSize=13;fontColor=default;strokeColor=#82b366;fillColor=#d5e8d4;strokeWidth=3;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="2578" as="sourcePoint" />
+            <mxPoint x="1290" y="2534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-191" value="微服务治理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="765" y="2545" width="122" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-192" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="2483.5" as="sourcePoint" />
+            <mxPoint x="525" y="2483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-193" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="644.5" y="2483.5" as="sourcePoint" />
+            <mxPoint x="694.5" y="2483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-194" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805.75" y="2483.5" as="sourcePoint" />
+            <mxPoint x="855.75" y="2483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-195" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="2483.5" as="sourcePoint" />
+            <mxPoint x="1020" y="2483.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ArHgpyo0WWo6SZ6FnaOq-196" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=1;fontSize=16;fontColor=default;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="2483.5" as="sourcePoint" />
+            <mxPoint x="1180" y="2483.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
